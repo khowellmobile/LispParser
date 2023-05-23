@@ -29,4 +29,4 @@ Consider the following grammer for a simplified scheme grammar
 - Anything else other than whitespace is an error ( `INVALID`)
 
 # Diagram
-![state diagram](expr-diagram.png)
+![state diagram](diagram.png)
