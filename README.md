@@ -1,15 +1,9 @@
 # LispParser
 
-Implement a parser Lisp(ish) in CSharp. 
-
-For this project you will write `lispish.exe`, an parser for a simple LISP-like language. 
-
-Your program will read a LISP expression and print the parse tree.  
-
-> NOTE:  I created a video demonstrating me solving a similar problem in c-sharp at [this link](https://youtu.be/jgQONmpCQ-c).  The files are in this repo. 
+A parser written in C# that handles a simple form of a lisp like language. The parser outputs a sequence of tokens followed by their lexeme as well as a parse tree.
 
 # Grammar
-Consider the following grammer for a simplified scheme grammar
+This is the basic grammar used for the lisp-like language
 
 ```
 <Program> ::= {<SExpr>}
@@ -20,6 +14,7 @@ Consider the following grammer for a simplified scheme grammar
 ```
  
 # Token Types in Regex
+These are the tokens represented as regex
 
 - `LITERAL` = [[\\(\\)]](https://regex101.com/r/YTsgaN/1)
 - `REAL` = [[+-]?[0-9]*\\.[0-9]+](https://regex101.com/r/Zneyy2/1)
